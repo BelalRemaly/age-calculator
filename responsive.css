@@ -1,0 +1,36 @@
+@media (max-width : 1025px) {
+    section {
+        width: 60%;
+        margin-left: 20%;
+    }
+}
+
+@media (max-width : 769px) {
+    section {
+        width: 70%;
+        margin-left: 15%;
+    }
+}
+
+@media (max-width : 426px) {
+    section {
+        /* flex-direction: column; */
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    .div2 {
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+
+    .div2 div {
+        width: 100%;
+        margin: 0;
+    }
+
+    button {
+        margin-left: 32%;
+    }
+}
